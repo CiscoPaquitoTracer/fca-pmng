@@ -1,0 +1,26 @@
+html,
+body {
+    margin: 0;
+    overscroll-behavior: none;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+}

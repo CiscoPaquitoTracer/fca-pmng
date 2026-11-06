@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/css/bootstrap.css" />
+    <meta name="view-transition" content="same-origin" />
+    <style>
+      @view-transition {
+        navigation: auto;
+      }
+    </style>
+  </head>
+  <body id="main">
+    <h1>¡Registro de personas!</h1>
+    <form id="form" >
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        required
+        class="form-control"
+        placeholder="Agrega un nombre"
+        aria-label="nuevo nombre"
+      />
+      <button id="submitter" class="btn btn-primary" onclick="enviar()">
+        Guardar
+      </button>
+    </form>
+    <ul class="list-group w-100" id="nombres"></ul>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

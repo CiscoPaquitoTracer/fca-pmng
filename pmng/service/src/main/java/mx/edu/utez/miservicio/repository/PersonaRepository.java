@@ -1,0 +1,7 @@
+package mx.edu.utez.miservicio.repository;
+
+import mx.edu.utez.miservicio.model.Persona;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PersonaRepository extends JpaRepository<Persona, Long> {
+}
